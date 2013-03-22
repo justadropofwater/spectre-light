@@ -1,0 +1,10 @@
+{
+	"name":"spectre-light",
+	"description":"d.r.e.a.m. spectre-light is an html-based interface to connect to the anonymous network.",
+	"version":"0.0.1",
+	"private":true,
+	"dependencies": {
+		"express":"3.x",
+		"color":"*"
+	}
+}

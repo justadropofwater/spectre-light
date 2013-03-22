@@ -1,0 +1,85 @@
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('fonts/fontawesome-webfont.eot');
+  src: url('fonts/fontawesome-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/fontawesome-webfont.woff') format('woff'),
+    url('fonts/fontawesome-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+.ui-icon {
+  background-image: none;
+  width: 20px;
+  height: 20px;
+}
+
+/*  Font Awesome styles
+    ------------------------------------------------------- */
+[class^="ui-icon-"]:before,[class*=" ui-icon-"]:before {
+  font-family:FontAwesome!important;
+  font-weight:400;
+  font-style:normal;
+  display:inline-block;
+}
+[class^="icon-"],
+[class*=" icon-"] {
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: inherit;
+  display: inline;
+  width: auto;
+  height: auto;
+  line-height: normal;
+  vertical-align: baseline;
+  background-image: none !important;
+  background-position: 0% 0%;
+  background-repeat: repeat;
+}
+/* makes sure icons active on rollover in links */
+a [class^="icon-"],
+a [class*=" icon-"] {
+  display: inline-block;
+}
+.ui-icon-search:before { content: "\f002"; margin-top: 1px; margin-left: 2px; }
+.ui-icon-envelope:before { content: "\f003"; margin-top: 1px; margin-left: 2px; }
+.ui-icon-user:before { content: "\f007"; margin-top: 1px; margin-left: 2px; }
+.ui-icon-ok:before { content: "\f00c"; margin-top: 1px; margin-left: 2px; }
+.ui-icon-delete:before { content: "\f00d"; margin-top: 1px; margin-left: 3px; }
+.ui-icon-remove:before { content: "\f00d"; margin-top: 1px; margin-left: 3px; }
+.ui-icon-cog:before { content: "\f013"; margin-top: 1px; margin-left: 3px; }
+.ui-icon-trash:before { content: "\f014"; margin-top: 1px; margin-left: 3px; }
+.ui-icon-tag:before { content: "\f02b"; margin-top: 2px; margin-left: 3px; }
+.ui-icon-tags:before { content: "\f02c"; margin-top: 2px; margin-left: 2px; }
+.ui-icon-font:before { content: "\f031"; margin-top: 1px; margin-left: 2px; }
+.ui-icon-edit:before { content: "\f044"; margin-top: 3px; margin-left: 3px; }
+.ui-icon-share:before { content: "\f045"; margin-top: 3px; margin-left: 3px; }
+.ui-icon-check:before { content: "\f046"; margin-top: 3px; margin-left: 3px; }
+.ui-icon-plus-sign:before { content: "\f055"; margin-top: 2px; margin-left: 3px; }
+.ui-icon-minus-sign:before { content: "\f056"; margin-top: 2px; margin-left: 3px; }
+.ui-icon-remove-sign:before { content: "\f057"; margin-top: 2px; margin-left: 3px; }
+.ui-icon-ok-sign:before { content: "\f058"; margin-top: 2px; margin-left: 3px; }
+.ui-icon-question-sign:before { content: "\f059"; margin-top: 2px; margin-left: 3px; }
+.ui-icon-info-sign:before { content: "\f05a"; margin-top: 2px; margin-left: 3px; }
+.ui-icon-eye-open:before { content: "\f06e"; margin-top: 2px; margin-left: 2px; }
+.ui-icon-eye-close:before { content: "\f070"; margin-top: 2px; margin-left: 2px; }
+.ui-icon-comment:before { content: "\f075"; margin-top: 1px; margin-left: 2px; }
+.ui-icon-cogs:before { content: "\f085"; margin-top: 1px; margin-left: 1px; }
+.ui-icon-comments:before { content: "\f086"; margin-top: 1px; margin-left: 2px; }
+.ui-icon-signout:before { content: "\f08b"; margin-top: 2px; margin-left: 4px; }
+.ui-icon-external-link:before { content: "\f08e"; margin-top: 4px; margin-left: 4px; }
+.ui-icon-signin:before { content: "\f090"; margin-top: 2px; margin-left: 2px; }
+.ui-icon-unlock:before { content: "\f09c"; margin-top: 2px; margin-left: 2px; }
+.ui-icon-hdd:before { content: "\f0a0"; margin-top: 1px; margin-left: 3px; }
+.ui-icon-arrow-l:before { content: "\f0a8"; margin-top: 2px; margin-left: 3px; }
+.ui-icon-arrow-r:before { content: "\f0a9"; margin-top: 2px; margin-left: 3px; }
+.ui-icon-circle-arrow-left:before { content: "\f0a8"; margin-top: 2px; margin-left: 3px; }
+.ui-icon-circle-arrow-right:before { content: "\f0a9"; margin-top: 2px; margin-left: 3px; }
+.ui-icon-circle-arrow-up:before { content: "\f0aa"; margin-top: 2px; margin-left: 3px; }
+.ui-icon-circle-arrow-down:before { content: "\f0ab"; margin-top: 2px; margin-left: 3px; }
+.ui-icon-wrench:before { content: "\f0ad"; margin-top: 1px; margin-left: 2px; }
+.ui-icon-group:before { content: "\f0c0"; margin-top: 2px; margin-left: 1px; }
+.ui-icon-envelope-alt:before { content: "\f0e0"; margin-top: 2px; margin-left: 2px; }
+.ui-icon-undo:before { content: "\f0e2"; margin-top: 2px; margin-left: 3px; }
+.ui-icon-comment-alt:before { content: "\f0e5"; margin-top: 1px; margin-left: 2px; }
+.ui-icon-comments-alt:before { content: "\f0e6"; margin-top: 1px; margin-left: 2px; }

@@ -1,0 +1,52 @@
+div.ui-content {
+	padding: 0 !important;
+}
+
+div.connectionInput div.ui-block-a,
+div.connectionInput div.ui-block-b,
+div.connectionInput div.ui-block-c,
+div.connectionInput div.ui-block-d {
+	width: auto;
+	margin: 0 auto;
+	text-align: center;
+}
+
+div.connectionInput div.ui-block-a {
+	min-width: 507px;
+}
+
+div.connectionInput div.ui-block-d {
+	float: right;
+}
+div.console {
+	font-size: 10px;
+	width: 100%;
+	float: left;
+	word-wrap: break-word;
+	min-height: 100%;
+	height: 100%;
+}
+
+div.console div.ui-block-a,
+div.console div.ui-block-b,
+div.console div.ui-block-c {
+	height: 500px;
+}
+
+div.console div.ui-block-a div.console-inside,
+div.console div.ui-block-b div.console-inside,
+div.console div.ui-block-c div.console-inside {
+	height: 100%;
+}
+
+#bold {}
+#status {}
+
+#bold, #status, #username, #password, #deviceID {
+	font-size: 11px;
+}
+
+.toolbar {
+	margin: 0 auto;
+	text-align: center;
+}
