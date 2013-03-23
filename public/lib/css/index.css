@@ -15,11 +15,14 @@ div.connectionInput div.ui-block-a {
 	min-width: 507px;
 }
 
+div.connectionInput div.ui-block-b {
+	width: 19%;
+}
 div.connectionInput div.ui-block-d {
 	float: right;
 }
 div.console {
-	font-size: 10px;
+	font-size: 10px !important;
 	width: 100%;
 	float: left;
 	word-wrap: break-word;
@@ -37,6 +40,13 @@ div.console div.ui-block-a div.console-inside,
 div.console div.ui-block-b div.console-inside,
 div.console div.ui-block-c div.console-inside {
 	height: 100%;
+}
+
+ul#log li.ui-btn-up-c,
+ul#contacts li.ui-btn-up-d,
+ul#messages li.ui-btn-up-b {
+	padding: 5px;
+	font-size: small;
 }
 
 #bold {}

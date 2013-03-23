@@ -1,7 +1,0 @@
-{
-	type : "newMessage",
-	userName : jObj.userName,
-	userID : jObj.userID,
-	message : jObj.message,
-	messageDate : currentDate
-}
